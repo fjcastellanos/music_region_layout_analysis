@@ -1,5 +1,5 @@
 # Region-based Layout Analysis of Music Score Images
-This repository corresponds to the paper: Region-based Layout Analysis of Music Score Images
+This repository corresponds to the paper: **Region-based Layout Analysis of Music Score Images**, submitted to the journal 'Expert Systems to Applications'.
 
 ## BibTex Reference
 
