@@ -39,6 +39,7 @@ The SAE folder includes the code that implements the Selectional Auto-encoder. T
   **--th** : IoU threshold to compute metrics.\
   **--nimgs** : Number of images considered from the training set.\
   **--red** : Reduction factor to reduce vertically the regions before training.\
+  **--labels** : Name of the labels to be used for training. This code uses the data configuration provided by the [MuReT tool](https://muret.dlsi.ua.es/muret/#/).
 
 Example of use:
 
