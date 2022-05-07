@@ -19,7 +19,7 @@ This repository corresponds to the paper: **Region-based Layout Analysis of Musi
 ```
 
 ## SAE
-The SAE folder includes the code that implements the Selectional Auto-encoder. This program has a series of parameters, as described above:
+The SAE folder includes the code that implements the Selectional Auto-encoder. This program has a series of parameters, as described below:
 
   **--mode** : Execution mode (train or test).\
   **--gpu** : Identifier of GPU.\
