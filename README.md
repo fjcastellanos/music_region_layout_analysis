@@ -4,7 +4,7 @@ This repository corresponds to the paper: **Region-based Layout Analysis of Musi
 ## BibTex Reference
 
 ```
-@article{2022_Castellanos_regions,
+@article{castellanos2022musicLA,
   author    = {Francisco J. Castellanos and
                Carlos Garrido{-}Munoz and
                Antonio R{\'{\i}}os{-}Vila and
