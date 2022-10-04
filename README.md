@@ -97,4 +97,51 @@ python3 -u ./main.py \
 ## End-to-end
 The code for the end-to-end approach used in this work can be found in [end-to-end code](https://github.com/HISPAMUS/end-to-end-recognition/tree/develop/code)
 
+## Training of the models
+The pytorch_models folder includes the code that implements the models used described in the paper. This program has a series of parameters, as described below:
+
+### Training without data augmentation
+./train.sh trains 
+  - Faster-RCNN w. Resnet50 
+  - RetinaNet w. ResNet50 
+  - Faster R-CNN with MobileNet v3
+  - SSD w. VGG16 backbone
+
+without the custom data augmentation used in the paper.
+
+### Training with data augmentation
+./train-aug.sh trains 
+  - Faster-RCNN w. Resnet50 
+  - RetinaNet w. ResNet50 
+  - Faster R-CNN with MobileNet v3
+  - SSD w. VGG16 backbone
+
+using the data augmentation used in the paper.
+
+
+### Testing without data augmentation
+./test.sh tests the following models: 
+  - Faster-RCNN w. Resnet50 
+  - RetinaNet w. ResNet50 
+  - Faster R-CNN with MobileNet v3
+  - SSD w. VGG16 backbone
+
+without the custom data augmentation used in the paper.
+
+### Testing with data augmentation
+./test_aug.sh tests the following models: 
+  - Faster-RCNN w. Resnet50 
+  - RetinaNet w. ResNet50 
+  - Faster R-CNN with MobileNet v3
+  - SSD w. VGG16 backbone
+
+using the data augmentation used in the paper.
+
+
+
+
+
+
+
+
 
